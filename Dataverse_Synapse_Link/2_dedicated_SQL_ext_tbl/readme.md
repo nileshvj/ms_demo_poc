@@ -1,4 +1,4 @@
-Option #2: Use external tables in dedicated SQL pool 
+# Option #2: Use external tables in dedicated SQL pool 
 2.1 Create a table in dedicated SQL pool to hold metadata information 
 
 `create table exta.metadata (`
