@@ -1,4 +1,7 @@
 # Option #2: Use external tables in dedicated SQL pool 
+
+_Refer Generate_dedicated_ext_tables_dataverse_support_live pipeline for sample pipeline._
+
 2.1 Create a table in dedicated SQL pool to hold metadata information 
 
 `create table exta.metadata (`
