@@ -107,4 +107,6 @@ _**Replace highlighted portion with appropriate variables or strings. Since this
 
 _** Also, you will see If condition added in foreach activity in the pipeline I have created. You may remove that. Reason I have added that was to test it only for one table. If you don’t want to filter list of tables and apply logic for all tables, please remove “If activity” and place that logic directly under “for each activity”._
 
+Lookup in model.json may not work and gives limit exceed error if model.json data is > 4MB. In that case another option can be used to get list of tables using sys.external_Tables of serverless Lake DB endpoint. 
+
 Disclaimer: Sample code provided here is for demo purpose only. This requires modifications as per specific use case and requirements before deploying for production use.
